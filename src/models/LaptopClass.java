@@ -30,5 +30,7 @@ public class LaptopClass {
         this.precio = precio;
     }
     
-    
+    public String purchaseSuccess(){
+        return "La venta se realizo correctamente"+"\n"+"Marca: "+this.marca+"\n"+"Modelo: "+this.modelo+"\n"+"Precio: "+this.precio;
+    }
 }
