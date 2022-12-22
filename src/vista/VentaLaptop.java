@@ -21,39 +21,38 @@ public class VentaLaptop extends javax.swing.JInternalFrame {
         txtMarca = new javax.swing.JTextField();
         txtModelo = new javax.swing.JTextField();
         txtPrecio = new javax.swing.JTextField();
-        jLabel5 = new javax.swing.JLabel();
 
         setClosable(true);
         setResizable(true);
         setTitle("Venta laptops");
-        setMinimumSize(new java.awt.Dimension(500, 400));
+        setMinimumSize(new java.awt.Dimension(510, 430));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 14)); // NOI18N
         jLabel1.setText("Marca");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 90, -1, 30));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 80, -1, 30));
 
-        jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 14)); // NOI18N
         jLabel2.setText("Modelo");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 150, -1, 30));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 150, -1, 30));
 
-        jLabel3.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 14)); // NOI18N
         jLabel3.setText("Precio");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 210, -1, 30));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 220, -1, 30));
 
         btnProcesar.setBackground(new java.awt.Color(153, 153, 255));
-        btnProcesar.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        btnProcesar.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 14)); // NOI18N
         btnProcesar.setText("Generar compra");
         btnProcesar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnProcesarActionPerformed(evt);
             }
         });
-        getContentPane().add(btnProcesar, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 280, 170, 50));
+        getContentPane().add(btnProcesar, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 310, 180, 50));
 
-        jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel4.setText("Venta de laptop");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 20, -1, -1));
+        jLabel4.setFont(new java.awt.Font("Hack Nerd Font Mono", 1, 24)); // NOI18N
+        jLabel4.setText("Formulario venta de laptop");
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 20, -1, -1));
 
         txtMarca.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         txtMarca.setToolTipText("");
@@ -62,16 +61,13 @@ public class VentaLaptop extends javax.swing.JInternalFrame {
                 txtMarcaActionPerformed(evt);
             }
         });
-        getContentPane().add(txtMarca, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 90, 180, 30));
+        getContentPane().add(txtMarca, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 110, 180, 30));
 
         txtModelo.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        getContentPane().add(txtModelo, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 150, 180, 30));
+        getContentPane().add(txtModelo, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 180, 180, 30));
 
         txtPrecio.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        getContentPane().add(txtPrecio, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 210, 180, 30));
-
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/laptop.png"))); // NOI18N
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 100, 170, -1));
+        getContentPane().add(txtPrecio, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 250, 180, 30));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -106,7 +102,6 @@ public class VentaLaptop extends javax.swing.JInternalFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
     private javax.swing.JTextField txtMarca;
     private javax.swing.JTextField txtModelo;
     private javax.swing.JTextField txtPrecio;

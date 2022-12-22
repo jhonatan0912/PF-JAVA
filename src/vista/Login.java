@@ -37,20 +37,20 @@ public class Login extends javax.swing.JFrame {
         });
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        LOGIN.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        LOGIN.setFont(new java.awt.Font("Hack Nerd Font Mono", 1, 24)); // NOI18N
         LOGIN.setText("LOGIN");
-        getContentPane().add(LOGIN, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 20, -1, -1));
+        getContentPane().add(LOGIN, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 20, -1, -1));
 
-        EmailLabel.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        EmailLabel.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 14)); // NOI18N
         EmailLabel.setText("Email:");
-        getContentPane().add(EmailLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 100, -1, 30));
+        getContentPane().add(EmailLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 100, -1, 30));
 
-        PasswordLabel.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        PasswordLabel.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 14)); // NOI18N
         PasswordLabel.setText("Password:");
-        getContentPane().add(PasswordLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 160, -1, 30));
+        getContentPane().add(PasswordLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 160, -1, 30));
 
-        btnLogin.setBackground(new java.awt.Color(51, 51, 255));
-        btnLogin.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        btnLogin.setBackground(new java.awt.Color(255, 0, 0));
+        btnLogin.setFont(new java.awt.Font("Hack Nerd Font Mono", 1, 18)); // NOI18N
         btnLogin.setForeground(new java.awt.Color(255, 255, 255));
         btnLogin.setText("Log In");
         btnLogin.addActionListener(new java.awt.event.ActionListener() {
@@ -58,13 +58,13 @@ public class Login extends javax.swing.JFrame {
                 btnLoginActionPerformed(evt);
             }
         });
-        getContentPane().add(btnLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 240, 240, 40));
-        getContentPane().add(txtEmail, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 100, 170, 30));
-        getContentPane().add(txtPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 160, 170, 30));
+        getContentPane().add(btnLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 240, 240, 40));
+        getContentPane().add(txtEmail, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 100, 170, 30));
+        getContentPane().add(txtPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 160, 170, 30));
 
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recurso/login-image.png"))); // NOI18N
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, 260, 270));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 30, 200, 270));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -79,7 +79,7 @@ public class Login extends javax.swing.JFrame {
         if(email.isEmpty() || password.isEmpty()){
             JOptionPane.showMessageDialog(null, "Some input are empty");
         }else{
-            if(email.equals("user@gmail.com") && password.equals("1234")){
+            if(email.equals("jhonatan@gmail.com") && password.equals("1234")){
                 Desktop desktopWindow=new Desktop();
                 desktopWindow.setVisible(true);
                 this.setVisible(false);                

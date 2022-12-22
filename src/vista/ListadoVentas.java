@@ -37,10 +37,11 @@ public class ListadoVentas extends javax.swing.JInternalFrame {
         setMinimumSize(new java.awt.Dimension(540, 360));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel1.setText("LISTADO DE VENTAS");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 30, -1, -1));
+        jLabel1.setFont(new java.awt.Font("Hack Nerd Font Mono", 1, 24)); // NOI18N
+        jLabel1.setText("Ventas");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 30, -1, -1));
 
+        jTable1.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 12)); // NOI18N
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {"HP", "15-ef1009la", "S/ 3299.00"},
