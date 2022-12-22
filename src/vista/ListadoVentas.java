@@ -51,7 +51,19 @@ public class ListadoVentas extends javax.swing.JInternalFrame {
                 {"Dell", "XPS 15", "S/ 3,799.00"},
                 {"HP", "Spectre ", "S/ 1,999.00"},
                 {"Acer", "Gram 17", "S/ 2,499.00"},
-                {"Asus", "Swift", null}
+                {"Asus", "Swift", "S/ 3,259.99"},
+                {"LENOVO", "V15 ADA", "S/ 1,149.99"},
+                {"ACER", "Aspire 3 ", "S/ 1,499.00"},
+                {"HP", "dy5010la", "S/ 2,899.89"},
+                {"LENOVO", "Ideapad Gaming 3", "S/ 3,399.79"},
+                {"HP", "d0503la ", "S/ 2,799.99"},
+                {"LENOVO", "IdeaPad 5", "S/ 5,449.00"},
+                {"ACER", "Nitro 5 CI5 11400H", "S/ 2,899.99"},
+                {"ASUS", "FX517ZC", "S/ 3,799.00"},
+                {"HP", "dw1085la ", "S/ 1,299.99"},
+                {"LENOVO", "Ideapad", "S/ 1,499.00"},
+                {"LENOVO", "Legion 5", "S/ 3,599.99"},
+                {"ASUS", " G513Ic", "S/ 4,499.90"}
             },
             new String [] {
                 "Marca", "Modelo", "Precio"

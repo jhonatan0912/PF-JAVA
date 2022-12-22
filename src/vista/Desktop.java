@@ -45,7 +45,7 @@ public class Desktop extends javax.swing.JFrame {
 
         btnListaVentas.setText("Opciones");
 
-        btnCatalogo.setText("Catalogo productos");
+        btnCatalogo.setText("Catálogo productos");
         btnCatalogo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnCatalogoActionPerformed(evt);
@@ -61,7 +61,7 @@ public class Desktop extends javax.swing.JFrame {
         });
         btnListaVentas.add(btnListaClientes);
 
-        btnVentaLaptops.setText("Venta laptops");
+        btnVentaLaptops.setText("Venta de laptops (form)");
         btnVentaLaptops.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnVentaLaptopsActionPerformed(evt);
@@ -69,7 +69,7 @@ public class Desktop extends javax.swing.JFrame {
         });
         btnListaVentas.add(btnVentaLaptops);
 
-        jMenuItem1.setText("Lista ventas");
+        jMenuItem1.setText("Lista de ventas");
         jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem1ActionPerformed(evt);

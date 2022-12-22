@@ -34,19 +34,27 @@ public class ListaClientes extends javax.swing.JInternalFrame {
         setClosable(true);
         setResizable(true);
         setTitle("Lista de clientes");
-        setMinimumSize(new java.awt.Dimension(600, 330));
+        setMinimumSize(new java.awt.Dimension(600, 380));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jTable1.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 12)); // NOI18N
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {"Sebastián", "Rivas Barreto", "juanpablo.sedillo@yahoo.com"},
-                {"Emiliano", "Simon Solorzano", "tijerina.rebeca@quintero.com"},
-                {"Francisco", "Montes", "montano.joshua@cabrera.com"},
+                {"Jorge", "Manuel Navarro", "jorge@gmail.com"},
+                {"Elizabeth", "Sauceda", "elizabeth@gmail.com"},
+                {"Emiliano", "Pineda Ferrer", "emiliano@gmail.com"},
                 {"Luis", "Cuellas Tello", "luis@gmail.com"},
                 {"Catalina", "Zamudio Mata", "catalina@gmail.com"},
                 {"Maria", "Jimenez Benitez", "maria@outlook.com"},
-                {"Jesus", "Vicente Velazco", "jesus@hootmail.com"}
+                {"Jesus", "Vicente Velazco", "jesus@hootmail.com"},
+                {"Sebastian", "Villareal Posada", "sebastian@gmail.com"},
+                {"Esteban", "Fierro Chacon", "esteban@hotmail.com"},
+                {"Sofia", "Echevarria Aguirre", "sofia@gmail.com"},
+                {"Gabriel ", "Briseño Enriquez", "gariel@outlook.com"},
+                {"Simon", "Venegas Resendez", "simon@gmail.com"},
+                {"Catalina", "Salazar Galindo", "catalina@hotmail.com"},
+                {"Franco", "Porras Benavides", "franco@outlook.com"},
+                {"Esteban", "Amador Sevilla", "esteban@outlook.com"}
             },
             new String [] {
                 "Nombres", "Apellidos", "Correo"
@@ -54,7 +62,7 @@ public class ListaClientes extends javax.swing.JInternalFrame {
         ));
         jScrollPane1.setViewportView(jTable1);
 
-        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 80, 510, 170));
+        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 80, 510, 250));
 
         jLabel1.setFont(new java.awt.Font("Hack Nerd Font Mono", 1, 24)); // NOI18N
         jLabel1.setText("CLIENTES");

@@ -60,7 +60,7 @@
               <Font name="Hack Nerd Font Mono" size="12" style="0"/>
             </Property>
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
-              <Table columnCount="3" rowCount="8">
+              <Table columnCount="3" rowCount="20">
                 <Column editable="true" title="Marca" type="java.lang.Object">
                   <Data value="HP"/>
                   <Data value="Lenovo"/>
@@ -70,6 +70,18 @@
                   <Data value="HP"/>
                   <Data value="Acer"/>
                   <Data value="Asus"/>
+                  <Data value="LENOVO"/>
+                  <Data value="ACER"/>
+                  <Data value="HP"/>
+                  <Data value="LENOVO"/>
+                  <Data value="HP"/>
+                  <Data value="LENOVO"/>
+                  <Data value="ACER"/>
+                  <Data value="ASUS"/>
+                  <Data value="HP"/>
+                  <Data value="LENOVO"/>
+                  <Data value="LENOVO"/>
+                  <Data value="ASUS"/>
                 </Column>
                 <Column editable="true" title="Modelo" type="java.lang.Object">
                   <Data value="15-ef1009la"/>
@@ -80,6 +92,18 @@
                   <Data value="Spectre "/>
                   <Data value="Gram 17"/>
                   <Data value="Swift"/>
+                  <Data value="V15 ADA"/>
+                  <Data value="Aspire 3 "/>
+                  <Data value="dy5010la"/>
+                  <Data value="Ideapad Gaming 3"/>
+                  <Data value="d0503la "/>
+                  <Data value="IdeaPad 5"/>
+                  <Data value="Nitro 5 CI5 11400H"/>
+                  <Data value="FX517ZC"/>
+                  <Data value="dw1085la "/>
+                  <Data value="Ideapad"/>
+                  <Data value="Legion 5"/>
+                  <Data value=" G513Ic"/>
                 </Column>
                 <Column editable="true" title="Precio" type="java.lang.Object">
                   <Data value="S/ 3299.00"/>
@@ -89,7 +113,19 @@
                   <Data value="S/ 3,799.00"/>
                   <Data value="S/ 1,999.00"/>
                   <Data value="S/ 2,499.00"/>
-                  <Data value="null"/>
+                  <Data value="S/ 3,259.99"/>
+                  <Data value="S/ 1,149.99"/>
+                  <Data value="S/ 1,499.00"/>
+                  <Data value="S/ 2,899.89"/>
+                  <Data value="S/ 3,399.79"/>
+                  <Data value="S/ 2,799.99"/>
+                  <Data value="S/ 5,449.00"/>
+                  <Data value="S/ 2,899.99"/>
+                  <Data value="S/ 3,799.00"/>
+                  <Data value="S/ 1,299.99"/>
+                  <Data value="S/ 1,499.00"/>
+                  <Data value="S/ 3,599.99"/>
+                  <Data value="S/ 4,499.90"/>
                 </Column>
               </Table>
             </Property>
