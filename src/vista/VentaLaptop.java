@@ -84,8 +84,7 @@ public class VentaLaptop extends javax.swing.JInternalFrame {
         // TODO add your handling code here:
         String marca;
         String modelo;
-        double precio;
-        
+        double precio;      
                 
         marca=txtMarca.getText();
         modelo=txtModelo.getText();
@@ -97,7 +96,7 @@ public class VentaLaptop extends javax.swing.JInternalFrame {
         laptop.setModelo(modelo);
         laptop.setPrecio(precio);
                 
-        JOptionPane.showMessageDialog(null, laptop.purchaseSuccess());
+        JOptionPane.showMessageDialog(null, laptop.purchaseSuccess(marca, modelo, precio));
     }//GEN-LAST:event_btnProcesarActionPerformed
 
 
