@@ -22,6 +22,8 @@ public class VentaLaptop extends javax.swing.JInternalFrame {
         txtModelo = new javax.swing.JTextField();
         txtPrecio = new javax.swing.JTextField();
 
+        setBackground(new java.awt.Color(242, 146, 47));
+        setBorder(null);
         setClosable(true);
         setResizable(true);
         setTitle("Venta laptops");
@@ -29,19 +31,20 @@ public class VentaLaptop extends javax.swing.JInternalFrame {
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 14)); // NOI18N
-        jLabel1.setText("Marca");
+        jLabel1.setText("Marca:");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 80, -1, 30));
 
         jLabel2.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 14)); // NOI18N
-        jLabel2.setText("Modelo");
+        jLabel2.setText("Modelo:");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 150, -1, 30));
 
         jLabel3.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 14)); // NOI18N
-        jLabel3.setText("Precio");
+        jLabel3.setText("Precio:");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 220, -1, 30));
 
-        btnProcesar.setBackground(new java.awt.Color(153, 153, 255));
+        btnProcesar.setBackground(new java.awt.Color(0, 102, 51));
         btnProcesar.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 14)); // NOI18N
+        btnProcesar.setForeground(new java.awt.Color(255, 255, 255));
         btnProcesar.setText("Generar compra");
         btnProcesar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

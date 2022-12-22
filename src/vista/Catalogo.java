@@ -77,7 +77,6 @@ public class Catalogo extends javax.swing.JInternalFrame {
         jLabel55 = new javax.swing.JLabel();
         jLabel56 = new javax.swing.JLabel();
         jLabel57 = new javax.swing.JLabel();
-        jLabel58 = new javax.swing.JLabel();
         jLabel60 = new javax.swing.JLabel();
         jLabel59 = new javax.swing.JLabel();
         jLabel61 = new javax.swing.JLabel();
@@ -85,6 +84,20 @@ public class Catalogo extends javax.swing.JInternalFrame {
         jLabel63 = new javax.swing.JLabel();
         jLabel64 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel65 = new javax.swing.JLabel();
+        jLabel66 = new javax.swing.JLabel();
+        jLabel67 = new javax.swing.JLabel();
+        jLabel68 = new javax.swing.JLabel();
+        jLabel69 = new javax.swing.JLabel();
+        jLabel70 = new javax.swing.JLabel();
+        jLabel71 = new javax.swing.JLabel();
+        jLabel72 = new javax.swing.JLabel();
+        jLabel73 = new javax.swing.JLabel();
+        jLabel74 = new javax.swing.JLabel();
+        jLabel75 = new javax.swing.JLabel();
+        jLabel76 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(255, 255, 255));
         setClosable(true);
@@ -294,9 +307,6 @@ public class Catalogo extends javax.swing.JInternalFrame {
         jLabel57.setText("FX517ZC ");
         getContentPane().add(jLabel57, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 570, -1, -1));
 
-        jLabel58.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/1.png"))); // NOI18N
-        getContentPane().add(jLabel58, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 80, 200, 180));
-
         jLabel60.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/2.png"))); // NOI18N
         getContentPane().add(jLabel60, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 80, 190, 180));
 
@@ -317,6 +327,60 @@ public class Catalogo extends javax.swing.JInternalFrame {
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/8.png"))); // NOI18N
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 360, 200, 180));
+
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/6.png"))); // NOI18N
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 80, 200, 180));
+
+        jLabel65.setFont(new java.awt.Font("Hack Nerd Font Mono", 1, 12)); // NOI18N
+        jLabel65.setText("Precio:");
+        getContentPane().add(jLabel65, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 310, -1, -1));
+
+        jLabel66.setFont(new java.awt.Font("Hack Nerd Font Mono", 1, 12)); // NOI18N
+        jLabel66.setText("Marca:");
+        getContentPane().add(jLabel66, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 270, -1, -1));
+
+        jLabel67.setFont(new java.awt.Font("Hack Nerd Font Mono", 1, 12)); // NOI18N
+        jLabel67.setText("Modelo:");
+        getContentPane().add(jLabel67, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 290, -1, -1));
+
+        jLabel68.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 12)); // NOI18N
+        jLabel68.setText("S/ 2,099.00");
+        getContentPane().add(jLabel68, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 310, -1, -1));
+
+        jLabel69.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 12)); // NOI18N
+        jLabel69.setText("ASUS");
+        getContentPane().add(jLabel69, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 270, -1, -1));
+
+        jLabel70.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 12)); // NOI18N
+        jLabel70.setText("dy2059la");
+        getContentPane().add(jLabel70, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 290, -1, -1));
+
+        jLabel71.setFont(new java.awt.Font("Hack Nerd Font", 1, 12)); // NOI18N
+        jLabel71.setText("Precio:");
+        getContentPane().add(jLabel71, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 590, -1, -1));
+
+        jLabel72.setFont(new java.awt.Font("Hack Nerd Font", 1, 12)); // NOI18N
+        jLabel72.setText("Marca:");
+        getContentPane().add(jLabel72, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 550, -1, -1));
+
+        jLabel73.setFont(new java.awt.Font("Hack Nerd Font", 1, 12)); // NOI18N
+        jLabel73.setText("Modelo:");
+        getContentPane().add(jLabel73, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 570, -1, -1));
+
+        jLabel74.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 12)); // NOI18N
+        jLabel74.setText("S/ 3,699.00");
+        getContentPane().add(jLabel74, new org.netbeans.lib.awtextra.AbsoluteConstraints(1000, 590, -1, -1));
+
+        jLabel75.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 12)); // NOI18N
+        jLabel75.setText("ASUS");
+        getContentPane().add(jLabel75, new org.netbeans.lib.awtextra.AbsoluteConstraints(1000, 550, -1, -1));
+
+        jLabel76.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 12)); // NOI18N
+        jLabel76.setText("FX517ZC ");
+        getContentPane().add(jLabel76, new org.netbeans.lib.awtextra.AbsoluteConstraints(1000, 570, -1, -1));
+
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/3.png"))); // NOI18N
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 360, 200, 180));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -355,6 +419,7 @@ public class Catalogo extends javax.swing.JInternalFrame {
     private javax.swing.JLabel jLabel37;
     private javax.swing.JLabel jLabel38;
     private javax.swing.JLabel jLabel39;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel40;
     private javax.swing.JLabel jLabel41;
     private javax.swing.JLabel jLabel42;
@@ -365,6 +430,7 @@ public class Catalogo extends javax.swing.JInternalFrame {
     private javax.swing.JLabel jLabel47;
     private javax.swing.JLabel jLabel48;
     private javax.swing.JLabel jLabel49;
+    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel50;
     private javax.swing.JLabel jLabel51;
     private javax.swing.JLabel jLabel52;
@@ -373,13 +439,24 @@ public class Catalogo extends javax.swing.JInternalFrame {
     private javax.swing.JLabel jLabel55;
     private javax.swing.JLabel jLabel56;
     private javax.swing.JLabel jLabel57;
-    private javax.swing.JLabel jLabel58;
     private javax.swing.JLabel jLabel59;
     private javax.swing.JLabel jLabel60;
     private javax.swing.JLabel jLabel61;
     private javax.swing.JLabel jLabel62;
     private javax.swing.JLabel jLabel63;
     private javax.swing.JLabel jLabel64;
+    private javax.swing.JLabel jLabel65;
+    private javax.swing.JLabel jLabel66;
+    private javax.swing.JLabel jLabel67;
+    private javax.swing.JLabel jLabel68;
+    private javax.swing.JLabel jLabel69;
+    private javax.swing.JLabel jLabel70;
+    private javax.swing.JLabel jLabel71;
+    private javax.swing.JLabel jLabel72;
+    private javax.swing.JLabel jLabel73;
+    private javax.swing.JLabel jLabel74;
+    private javax.swing.JLabel jLabel75;
+    private javax.swing.JLabel jLabel76;
     private javax.swing.JLabel jLabel9;
     // End of variables declaration//GEN-END:variables
 }

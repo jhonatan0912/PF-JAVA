@@ -54,7 +54,17 @@ public class ListaClientes extends javax.swing.JInternalFrame {
                 {"Simon", "Venegas Resendez", "simon@gmail.com"},
                 {"Catalina", "Salazar Galindo", "catalina@hotmail.com"},
                 {"Franco", "Porras Benavides", "franco@outlook.com"},
-                {"Esteban", "Amador Sevilla", "esteban@outlook.com"}
+                {"Esteban", "Amador Sevilla", "esteban@outlook.com"},
+                {"Jesus", "Vicente Velazco", "jesus@hootmail.com"},
+                {"Sofia", "Echevarria Aguirre", "sofia@gmail.com"},
+                {"Luis", "Cuellas Tello", "luis@gmail.com"},
+                {"Elizabeth", "Sauceda", "elizabeth@gmail.com"},
+                {"Gabriel ", "Briseño Enriquez", "gariel@outlook.com"},
+                {"Catalina", "Salazar Galindo", "catalina@hotmail.com"},
+                {"Esteban", "Amador Sevilla", "esteban@outlook.com"},
+                {"Sebastian", "Villareal Posada", "sebastian@gmail.com"},
+                {"Maria", "Jimenez Benitez", "maria@outlook.com"},
+                {"Catalina", "Zamudio Mata", "catalina@gmail.com"}
             },
             new String [] {
                 "Nombres", "Apellidos", "Correo"

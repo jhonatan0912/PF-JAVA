@@ -4,7 +4,6 @@ package vista;
 import java.awt.Graphics;
 import java.awt.Image;
 import javax.swing.ImageIcon;
-import vista.VentaLaptop;
 
 public class Desktop extends javax.swing.JFrame {
 
@@ -25,12 +24,13 @@ public class Desktop extends javax.swing.JFrame {
         };
         jMenuBar1 = new javax.swing.JMenuBar();
         btnListaVentas = new javax.swing.JMenu();
-        btnCatalogo = new javax.swing.JMenuItem();
-        btnListaClientes = new javax.swing.JMenuItem();
         btnVentaLaptops = new javax.swing.JMenuItem();
         jMenuItem1 = new javax.swing.JMenuItem();
+        btnListaClientes = new javax.swing.JMenuItem();
+        btnCatalogo = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setLocationByPlatform(true);
 
         javax.swing.GroupLayout deskLayout = new javax.swing.GroupLayout(desk);
         desk.setLayout(deskLayout);
@@ -45,22 +45,7 @@ public class Desktop extends javax.swing.JFrame {
 
         btnListaVentas.setText("Opciones");
 
-        btnCatalogo.setText("Catálogo productos");
-        btnCatalogo.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnCatalogoActionPerformed(evt);
-            }
-        });
-        btnListaVentas.add(btnCatalogo);
-
-        btnListaClientes.setText("Lista de clientes");
-        btnListaClientes.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnListaClientesActionPerformed(evt);
-            }
-        });
-        btnListaVentas.add(btnListaClientes);
-
+        btnVentaLaptops.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_1, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         btnVentaLaptops.setText("Venta de laptops (form)");
         btnVentaLaptops.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -69,6 +54,7 @@ public class Desktop extends javax.swing.JFrame {
         });
         btnListaVentas.add(btnVentaLaptops);
 
+        jMenuItem1.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_2, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMenuItem1.setText("Lista de ventas");
         jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -76,6 +62,24 @@ public class Desktop extends javax.swing.JFrame {
             }
         });
         btnListaVentas.add(jMenuItem1);
+
+        btnListaClientes.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_3, java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        btnListaClientes.setText("Lista de clientes");
+        btnListaClientes.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnListaClientesActionPerformed(evt);
+            }
+        });
+        btnListaVentas.add(btnListaClientes);
+
+        btnCatalogo.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_4, java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        btnCatalogo.setText("Catálogo productos");
+        btnCatalogo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnCatalogoActionPerformed(evt);
+            }
+        });
+        btnListaVentas.add(btnCatalogo);
 
         jMenuBar1.add(btnListaVentas);
 
