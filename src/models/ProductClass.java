@@ -1,6 +1,6 @@
 package models;
 
-public class LaptopClass {
+public class ProductClass {
     public String marca;
     public String modelo;
     

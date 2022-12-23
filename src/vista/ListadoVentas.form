@@ -34,11 +34,11 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Hack Nerd Font Mono" size="24" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Ventas"/>
+        <Property name="text" type="java.lang.String" value="TABLA DE VENTAS"/>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="220" y="30" width="-1" height="-1"/>
+          <AbsoluteConstraints x="170" y="40" width="-1" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -62,85 +62,85 @@
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
               <Table columnCount="3" rowCount="25">
                 <Column editable="true" title="Marca" type="java.lang.Object">
-                  <Data value="HP"/>
-                  <Data value="Lenovo"/>
-                  <Data value="Asus"/>
-                  <Data value="Acer"/>
-                  <Data value="Dell"/>
-                  <Data value="HP"/>
-                  <Data value="Acer"/>
-                  <Data value="Asus"/>
-                  <Data value="LENOVO"/>
-                  <Data value="ACER"/>
-                  <Data value="HP"/>
-                  <Data value="LENOVO"/>
-                  <Data value="HP"/>
-                  <Data value="LENOVO"/>
-                  <Data value="ACER"/>
-                  <Data value="ASUS"/>
-                  <Data value="HP"/>
-                  <Data value="LENOVO"/>
-                  <Data value="LENOVO"/>
-                  <Data value="ASUS"/>
-                  <Data value="ACER"/>
-                  <Data value="LENOVO"/>
-                  <Data value="ACER"/>
-                  <Data value="Acer"/>
-                  <Data value="Dell"/>
+                  <Data value="ADIDAS"/>
+                  <Data value="ADIDAS"/>
+                  <Data value="ADIDAS"/>
+                  <Data value="ADIDAS"/>
+                  <Data value="ADIDAS"/>
+                  <Data value="ADIDAS"/>
+                  <Data value="ADIDAS"/>
+                  <Data value="ADIDAS"/>
+                  <Data value="ADIDAS"/>
+                  <Data value="ADIDAS"/>
+                  <Data value="ADIDAS"/>
+                  <Data value="ADIDAS"/>
+                  <Data value="ADIDAS"/>
+                  <Data value="ADIDAS"/>
+                  <Data value="ADIDAS"/>
+                  <Data value="ADIDAS"/>
+                  <Data value="ADIDAS"/>
+                  <Data value="ADIDAS"/>
+                  <Data value="ADIDAS"/>
+                  <Data value="ADIDAS"/>
+                  <Data value="ADIDAS"/>
+                  <Data value="ADIDAS"/>
+                  <Data value="ADIDAS"/>
+                  <Data value="ADIDAS"/>
+                  <Data value="ADIDAS"/>
                 </Column>
                 <Column editable="true" title="Modelo" type="java.lang.Object">
-                  <Data value="15-ef1009la"/>
-                  <Data value="A315-57G-53R9"/>
-                  <Data value="82KT009NLM "/>
-                  <Data value=" LPM-BW15"/>
-                  <Data value="XPS 15"/>
-                  <Data value="Spectre "/>
-                  <Data value="Gram 17"/>
-                  <Data value="Swift"/>
-                  <Data value="V15 ADA"/>
-                  <Data value="Aspire 3 "/>
-                  <Data value="dy5010la"/>
-                  <Data value="Ideapad Gaming 3"/>
-                  <Data value="d0503la "/>
-                  <Data value="IdeaPad 5"/>
+                  <Data value="Al Rihla Pro ball"/>
+                  <Data value="Mexico 22 Away Jersey"/>
+                  <Data value="Argentina 22 Home Jersey"/>
+                  <Data value="Mexico 22 Home Jersey"/>
+                  <Data value="Mexico Away Fan Shirt"/>
+                  <Data value="Germany 22 Home Authentic Jersey"/>
+                  <Data value="Spain 22 Home Jersey"/>
+                  <Data value="PARLEY RUN FOR THE OCEANS SWEATSHIRT"/>
+                  <Data value="PARLEY RUN FOR THE OCEANS SWEATSHIRT"/>
+                  <Data value="WORKOUT CORDURA&#xae; FULL-ZIP HOODIE"/>
+                  <Data value="BEST OF ADIDAS TRAINING HOODIE"/>
+                  <Data value="X-CITY FULL-ZIP HOODIE"/>
+                  <Data value="Mexico Away Fan Shirt"/>
+                  <Data value="Spain 22 Home Jersey"/>
+                  <Data value="Nitro WORKOUT CORDURA&#xae; FULL-ZIP HOODIE5 CI5 11400H"/>
+                  <Data value="Mexico Away Fan Shirt"/>
+                  <Data value="Hombre futbol"/>
+                  <Data value="DONOVAN MITCHELL SHORT SLEEVE HOODIE"/>
+                  <Data value="Germany 22 Home Authentic Jersey"/>
+                  <Data value="Spain 22 Home Jersey"/>
                   <Data value="Nitro 5 CI5 11400H"/>
-                  <Data value="FX517ZC"/>
-                  <Data value="dw1085la "/>
-                  <Data value="Ideapad"/>
-                  <Data value="Legion 5"/>
-                  <Data value=" G513Ic"/>
-                  <Data value="Nitro 5 CI5 11400H"/>
-                  <Data value="Ideapad"/>
-                  <Data value="Aspire 3 "/>
-                  <Data value="Gram 17"/>
-                  <Data value="XPS 15"/>
+                  <Data value="Spain 22 Home Jersey"/>
+                  <Data value="X-CITY FULL-ZIP HOODIE"/>
+                  <Data value="WORKOUT CORDURA&#xae; FULL-ZIP HOODIE"/>
+                  <Data value="PARLEY RUN FOR THE OCEANS SWEATSHIRT"/>
                 </Column>
                 <Column editable="true" title="Precio" type="java.lang.Object">
-                  <Data value="S/ 3299.00"/>
-                  <Data value="S/ 2,099.00"/>
-                  <Data value="S/ 1,999.00"/>
-                  <Data value="S/ 2,099.00"/>
-                  <Data value="S/ 3,799.00"/>
-                  <Data value="S/ 1,999.00"/>
-                  <Data value="S/ 2,499.00"/>
-                  <Data value="S/ 3,259.99"/>
-                  <Data value="S/ 1,149.99"/>
-                  <Data value="S/ 1,499.00"/>
-                  <Data value="S/ 2,899.89"/>
-                  <Data value="S/ 3,399.79"/>
-                  <Data value="S/ 2,799.99"/>
-                  <Data value="S/ 5,449.00"/>
-                  <Data value="S/ 2,899.99"/>
-                  <Data value="S/ 3,799.00"/>
-                  <Data value="S/ 1,299.99"/>
-                  <Data value="S/ 1,499.00"/>
-                  <Data value="S/ 3,599.99"/>
-                  <Data value="S/ 4,499.90"/>
-                  <Data value="S/ 2,899.99"/>
-                  <Data value="S/ 1,499.00"/>
-                  <Data value="S/ 1,499.00"/>
-                  <Data value="S/ 2,499.00"/>
-                  <Data value="S/ 3,799.00"/>
+                  <Data value="S/ 99.00"/>
+                  <Data value="S/ 20.00"/>
+                  <Data value="S/ 19.00"/>
+                  <Data value="S/ 299.00"/>
+                  <Data value="S/ 79.00"/>
+                  <Data value="S/ 199.00"/>
+                  <Data value="S/ 24.00"/>
+                  <Data value="S/ 39.99"/>
+                  <Data value="S/ 49.99"/>
+                  <Data value="S/ 19.00"/>
+                  <Data value="S/ 19.00"/>
+                  <Data value="S/ 79.00"/>
+                  <Data value="S/ 79.00"/>
+                  <Data value="S/ 99.00"/>
+                  <Data value="S/ 79.00"/>
+                  <Data value="S/ 39.99"/>
+                  <Data value="S/ 79.00"/>
+                  <Data value="S/ 49.99"/>
+                  <Data value="S/ 79.00"/>
+                  <Data value="S/ 39.99"/>
+                  <Data value="S/ 49.99"/>
+                  <Data value="S/ 19.00"/>
+                  <Data value="S/ 39.99"/>
+                  <Data value="S/ 49.99"/>
+                  <Data value="S/ 39.99"/>
                 </Column>
               </Table>
             </Property>

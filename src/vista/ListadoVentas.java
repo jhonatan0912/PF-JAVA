@@ -38,37 +38,37 @@ public class ListadoVentas extends javax.swing.JInternalFrame {
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Hack Nerd Font Mono", 1, 24)); // NOI18N
-        jLabel1.setText("Ventas");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 30, -1, -1));
+        jLabel1.setText("TABLA DE VENTAS");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 40, -1, -1));
 
         jTable1.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 12)); // NOI18N
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {"HP", "15-ef1009la", "S/ 3299.00"},
-                {"Lenovo", "A315-57G-53R9", "S/ 2,099.00"},
-                {"Asus", "82KT009NLM ", "S/ 1,999.00"},
-                {"Acer", " LPM-BW15", "S/ 2,099.00"},
-                {"Dell", "XPS 15", "S/ 3,799.00"},
-                {"HP", "Spectre ", "S/ 1,999.00"},
-                {"Acer", "Gram 17", "S/ 2,499.00"},
-                {"Asus", "Swift", "S/ 3,259.99"},
-                {"LENOVO", "V15 ADA", "S/ 1,149.99"},
-                {"ACER", "Aspire 3 ", "S/ 1,499.00"},
-                {"HP", "dy5010la", "S/ 2,899.89"},
-                {"LENOVO", "Ideapad Gaming 3", "S/ 3,399.79"},
-                {"HP", "d0503la ", "S/ 2,799.99"},
-                {"LENOVO", "IdeaPad 5", "S/ 5,449.00"},
-                {"ACER", "Nitro 5 CI5 11400H", "S/ 2,899.99"},
-                {"ASUS", "FX517ZC", "S/ 3,799.00"},
-                {"HP", "dw1085la ", "S/ 1,299.99"},
-                {"LENOVO", "Ideapad", "S/ 1,499.00"},
-                {"LENOVO", "Legion 5", "S/ 3,599.99"},
-                {"ASUS", " G513Ic", "S/ 4,499.90"},
-                {"ACER", "Nitro 5 CI5 11400H", "S/ 2,899.99"},
-                {"LENOVO", "Ideapad", "S/ 1,499.00"},
-                {"ACER", "Aspire 3 ", "S/ 1,499.00"},
-                {"Acer", "Gram 17", "S/ 2,499.00"},
-                {"Dell", "XPS 15", "S/ 3,799.00"}
+                {"ADIDAS", "Al Rihla Pro ball", "S/ 99.00"},
+                {"ADIDAS", "Mexico 22 Away Jersey", "S/ 20.00"},
+                {"ADIDAS", "Argentina 22 Home Jersey", "S/ 19.00"},
+                {"ADIDAS", "Mexico 22 Home Jersey", "S/ 299.00"},
+                {"ADIDAS", "Mexico Away Fan Shirt", "S/ 79.00"},
+                {"ADIDAS", "Germany 22 Home Authentic Jersey", "S/ 199.00"},
+                {"ADIDAS", "Spain 22 Home Jersey", "S/ 24.00"},
+                {"ADIDAS", "PARLEY RUN FOR THE OCEANS SWEATSHIRT", "S/ 39.99"},
+                {"ADIDAS", "PARLEY RUN FOR THE OCEANS SWEATSHIRT", "S/ 49.99"},
+                {"ADIDAS", "WORKOUT CORDURA® FULL-ZIP HOODIE", "S/ 19.00"},
+                {"ADIDAS", "BEST OF ADIDAS TRAINING HOODIE", "S/ 19.00"},
+                {"ADIDAS", "X-CITY FULL-ZIP HOODIE", "S/ 79.00"},
+                {"ADIDAS", "Mexico Away Fan Shirt", "S/ 79.00"},
+                {"ADIDAS", "Spain 22 Home Jersey", "S/ 99.00"},
+                {"ADIDAS", "Nitro WORKOUT CORDURA® FULL-ZIP HOODIE5 CI5 11400H", "S/ 79.00"},
+                {"ADIDAS", "Mexico Away Fan Shirt", "S/ 39.99"},
+                {"ADIDAS", "Hombre futbol", "S/ 79.00"},
+                {"ADIDAS", "DONOVAN MITCHELL SHORT SLEEVE HOODIE", "S/ 49.99"},
+                {"ADIDAS", "Germany 22 Home Authentic Jersey", "S/ 79.00"},
+                {"ADIDAS", "Spain 22 Home Jersey", "S/ 39.99"},
+                {"ADIDAS", "Nitro 5 CI5 11400H", "S/ 49.99"},
+                {"ADIDAS", "Spain 22 Home Jersey", "S/ 19.00"},
+                {"ADIDAS", "X-CITY FULL-ZIP HOODIE", "S/ 39.99"},
+                {"ADIDAS", "WORKOUT CORDURA® FULL-ZIP HOODIE", "S/ 49.99"},
+                {"ADIDAS", "PARLEY RUN FOR THE OCEANS SWEATSHIRT", "S/ 39.99"}
             },
             new String [] {
                 "Marca", "Modelo", "Precio"

@@ -27,7 +27,6 @@ public class Catalogo extends javax.swing.JInternalFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel2 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
@@ -80,11 +79,6 @@ public class Catalogo extends javax.swing.JInternalFrame {
         jLabel60 = new javax.swing.JLabel();
         jLabel59 = new javax.swing.JLabel();
         jLabel61 = new javax.swing.JLabel();
-        jLabel62 = new javax.swing.JLabel();
-        jLabel63 = new javax.swing.JLabel();
-        jLabel64 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
         jLabel65 = new javax.swing.JLabel();
         jLabel66 = new javax.swing.JLabel();
         jLabel67 = new javax.swing.JLabel();
@@ -97,7 +91,13 @@ public class Catalogo extends javax.swing.JInternalFrame {
         jLabel74 = new javax.swing.JLabel();
         jLabel75 = new javax.swing.JLabel();
         jLabel76 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
+        jLabel77 = new javax.swing.JLabel();
+        jLabel78 = new javax.swing.JLabel();
+        jLabel79 = new javax.swing.JLabel();
+        jLabel80 = new javax.swing.JLabel();
+        jLabel81 = new javax.swing.JLabel();
+        jLabel82 = new javax.swing.JLabel();
+        jLabel83 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(255, 255, 255));
         setClosable(true);
@@ -108,279 +108,295 @@ public class Catalogo extends javax.swing.JInternalFrame {
         setMinimumSize(new java.awt.Dimension(900, 630));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/4.png"))); // NOI18N
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 80, 200, 180));
-
         jLabel9.setFont(new java.awt.Font("Hack Nerd Font Mono", 1, 24)); // NOI18N
         jLabel9.setText("CATÁLOGO DE PRODUCTOS");
-        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 30, -1, -1));
+        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 30, -1, -1));
 
         jLabel10.setFont(new java.awt.Font("Hack Nerd Font Mono", 1, 12)); // NOI18N
+        jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel10.setText("Precio:");
-        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 310, -1, -1));
+        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 310, -1, -1));
 
         jLabel11.setFont(new java.awt.Font("Hack Nerd Font Mono", 1, 12)); // NOI18N
+        jLabel11.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel11.setText("Marca:");
-        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, -1, -1));
+        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 270, -1, -1));
 
         jLabel12.setFont(new java.awt.Font("Hack Nerd Font Mono", 1, 12)); // NOI18N
+        jLabel12.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel12.setText("Modelo:");
-        getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 290, -1, -1));
+        getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
 
         jLabel13.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 12)); // NOI18N
-        jLabel13.setText("S/ 2,099.00");
-        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, -1, -1));
+        jLabel13.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel13.setText("S/ 124");
+        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 310, -1, -1));
 
         jLabel14.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 12)); // NOI18N
-        jLabel14.setText("ACER");
-        getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 270, -1, -1));
+        jLabel14.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel14.setText("ADIDAS");
+        getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 270, -1, -1));
 
         jLabel15.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 12)); // NOI18N
-        jLabel15.setText("dy5000la");
-        getContentPane().add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 290, -1, -1));
+        jLabel15.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel15.setText("Al Rihla Pro ball");
+        getContentPane().add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 290, -1, -1));
 
         jLabel16.setFont(new java.awt.Font("Hack Nerd Font Mono", 1, 12)); // NOI18N
         jLabel16.setText("Precio:");
-        getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 310, -1, -1));
+        getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 310, -1, -1));
 
         jLabel17.setFont(new java.awt.Font("Hack Nerd Font Mono", 1, 12)); // NOI18N
         jLabel17.setText("Marca:");
-        getContentPane().add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 270, -1, -1));
+        getContentPane().add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 270, -1, -1));
 
         jLabel18.setFont(new java.awt.Font("Hack Nerd Font Mono", 1, 12)); // NOI18N
         jLabel18.setText("Modelo:");
-        getContentPane().add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 290, -1, -1));
+        getContentPane().add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 290, -1, -1));
 
         jLabel19.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 12)); // NOI18N
-        jLabel19.setText("S/ 1,099.00");
-        getContentPane().add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 310, -1, -1));
+        jLabel19.setText("S/ 163");
+        getContentPane().add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 310, -1, -1));
 
         jLabel20.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 12)); // NOI18N
-        jLabel20.setText("HP");
-        getContentPane().add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 270, -1, -1));
+        jLabel20.setText("ADIDAS");
+        getContentPane().add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 270, -1, -1));
 
         jLabel21.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 12)); // NOI18N
-        jLabel21.setText("X515EA");
-        getContentPane().add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 290, -1, -1));
+        jLabel21.setText("Mexico 22 Away Jersey  ");
+        getContentPane().add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 290, -1, -1));
 
         jLabel22.setFont(new java.awt.Font("Hack Nerd Font Mono", 1, 12)); // NOI18N
         jLabel22.setText("Precio:");
-        getContentPane().add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 310, -1, -1));
+        getContentPane().add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 310, -1, -1));
 
         jLabel23.setFont(new java.awt.Font("Hack Nerd Font Mono", 1, 12)); // NOI18N
         jLabel23.setText("Marca:");
-        getContentPane().add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 270, -1, -1));
+        getContentPane().add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 270, -1, -1));
 
         jLabel24.setFont(new java.awt.Font("Hack Nerd Font Mono", 1, 12)); // NOI18N
         jLabel24.setText("Modelo:");
-        getContentPane().add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 290, -1, -1));
+        getContentPane().add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 290, -1, -1));
 
         jLabel25.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 12)); // NOI18N
-        jLabel25.setText("S/  1,499.00");
-        getContentPane().add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 310, -1, -1));
+        jLabel25.setText("S/  64");
+        getContentPane().add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 310, -1, -1));
 
         jLabel26.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 12)); // NOI18N
-        jLabel26.setText("ASUS");
-        getContentPane().add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 270, -1, -1));
+        jLabel26.setText("ADIDAS");
+        getContentPane().add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 270, -1, -1));
 
         jLabel27.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 12)); // NOI18N
-        jLabel27.setText("14-dq2514la");
-        getContentPane().add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 290, -1, -1));
+        jLabel27.setText("Argentina 22 Home Jersey  ");
+        getContentPane().add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 290, -1, -1));
 
         jLabel28.setFont(new java.awt.Font("Hack Nerd Font Mono", 1, 12)); // NOI18N
         jLabel28.setText("Precio:");
-        getContentPane().add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 310, -1, -1));
+        getContentPane().add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 310, -1, -1));
 
         jLabel29.setFont(new java.awt.Font("Hack Nerd Font Mono", 1, 12)); // NOI18N
         jLabel29.setText("Marca:");
-        getContentPane().add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 270, -1, -1));
+        getContentPane().add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 270, -1, -1));
 
         jLabel30.setFont(new java.awt.Font("Hack Nerd Font Mono", 1, 12)); // NOI18N
         jLabel30.setText("Modelo:");
-        getContentPane().add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 290, -1, -1));
+        getContentPane().add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 290, -1, -1));
 
         jLabel31.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 12)); // NOI18N
-        jLabel31.setText("S/ 2,099.00");
-        getContentPane().add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 310, -1, -1));
+        jLabel31.setText("S/ 32");
+        getContentPane().add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 310, -1, -1));
 
         jLabel32.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 12)); // NOI18N
-        jLabel32.setText("ASUS");
-        getContentPane().add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 270, -1, -1));
+        jLabel32.setText("ADIDAS");
+        getContentPane().add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 270, -1, -1));
 
         jLabel33.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 12)); // NOI18N
-        jLabel33.setText("dy2059la");
-        getContentPane().add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 290, -1, -1));
+        jLabel33.setText("Mexico 22 Home Jersey  ");
+        getContentPane().add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 290, -1, -1));
 
         jLabel34.setFont(new java.awt.Font("Hack Nerd Font", 1, 12)); // NOI18N
         jLabel34.setText("Precio:");
-        getContentPane().add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 590, -1, -1));
+        getContentPane().add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 590, -1, -1));
 
         jLabel35.setFont(new java.awt.Font("Hack Nerd Font", 1, 12)); // NOI18N
         jLabel35.setText("Marca:");
-        getContentPane().add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 550, -1, -1));
+        getContentPane().add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 550, -1, -1));
 
         jLabel36.setFont(new java.awt.Font("Hack Nerd Font", 1, 12)); // NOI18N
         jLabel36.setText("Modelo:");
-        getContentPane().add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 570, -1, -1));
+        getContentPane().add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 570, -1, -1));
 
         jLabel37.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 12)); // NOI18N
-        jLabel37.setText("S/ 3,799.00");
-        getContentPane().add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 590, -1, -1));
+        jLabel37.setText("S/ 76");
+        getContentPane().add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 590, -1, -1));
 
         jLabel38.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 12)); // NOI18N
-        jLabel38.setText("Dell");
-        getContentPane().add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 550, -1, -1));
+        jLabel38.setText("ADIDAS");
+        getContentPane().add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 550, -1, -1));
 
         jLabel39.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 12)); // NOI18N
-        jLabel39.setText("Dash F15 FX517ZC");
-        getContentPane().add(jLabel39, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 570, -1, -1));
+        jLabel39.setText("Germany 22 Home");
+        getContentPane().add(jLabel39, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 570, -1, -1));
 
         jLabel40.setFont(new java.awt.Font("Hack Nerd Font", 1, 12)); // NOI18N
         jLabel40.setText("Precio:");
-        getContentPane().add(jLabel40, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 590, -1, -1));
+        getContentPane().add(jLabel40, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 590, -1, -1));
 
         jLabel41.setFont(new java.awt.Font("Hack Nerd Font", 1, 12)); // NOI18N
         jLabel41.setText("Marca:");
-        getContentPane().add(jLabel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 550, -1, -1));
+        getContentPane().add(jLabel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 550, -1, -1));
 
         jLabel42.setFont(new java.awt.Font("Hack Nerd Font", 1, 12)); // NOI18N
         jLabel42.setText("Modelo:");
-        getContentPane().add(jLabel42, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 570, -1, -1));
+        getContentPane().add(jLabel42, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 570, -1, -1));
 
         jLabel43.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 12)); // NOI18N
-        jLabel43.setText("S/ 1,999.00");
-        getContentPane().add(jLabel43, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 590, -1, -1));
+        jLabel43.setText("S/ 151");
+        getContentPane().add(jLabel43, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 590, -1, -1));
 
         jLabel44.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 12)); // NOI18N
-        jLabel44.setText("HP");
-        getContentPane().add(jLabel44, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 550, -1, -1));
+        jLabel44.setText("ADIDAS");
+        getContentPane().add(jLabel44, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 550, -1, -1));
 
         jLabel45.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 12)); // NOI18N
-        jLabel45.setText("M1502IA");
-        getContentPane().add(jLabel45, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 570, -1, -1));
+        jLabel45.setText("Spain 22 Home Jersey  ");
+        getContentPane().add(jLabel45, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 570, -1, -1));
 
         jLabel46.setFont(new java.awt.Font("Hack Nerd Font", 1, 12)); // NOI18N
         jLabel46.setText("Precio:");
-        getContentPane().add(jLabel46, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 590, -1, -1));
+        getContentPane().add(jLabel46, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 590, -1, -1));
 
         jLabel47.setFont(new java.awt.Font("Hack Nerd Font", 1, 12)); // NOI18N
         jLabel47.setText("Marca:");
-        getContentPane().add(jLabel47, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 550, -1, -1));
+        getContentPane().add(jLabel47, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 550, -1, -1));
 
         jLabel48.setFont(new java.awt.Font("Hack Nerd Font", 1, 12)); // NOI18N
         jLabel48.setText("Modelo:");
-        getContentPane().add(jLabel48, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 570, -1, -1));
+        getContentPane().add(jLabel48, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 570, -1, -1));
 
         jLabel49.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 12)); // NOI18N
-        jLabel49.setText("S/ 2,499.00");
-        getContentPane().add(jLabel49, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 590, -1, -1));
+        jLabel49.setText("S/ 135");
+        getContentPane().add(jLabel49, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 590, -1, -1));
 
         jLabel50.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 12)); // NOI18N
-        jLabel50.setText("ASUS");
-        getContentPane().add(jLabel50, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 550, -1, -1));
+        jLabel50.setText("ADIDAS");
+        getContentPane().add(jLabel50, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 550, -1, -1));
 
         jLabel51.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 12)); // NOI18N
-        jLabel51.setText("dy5000la");
-        getContentPane().add(jLabel51, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 570, -1, -1));
+        jLabel51.setText("Germany 22 Home");
+        getContentPane().add(jLabel51, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 570, -1, -1));
 
         jLabel52.setFont(new java.awt.Font("Hack Nerd Font", 1, 12)); // NOI18N
         jLabel52.setText("Precio:");
-        getContentPane().add(jLabel52, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 590, -1, -1));
+        getContentPane().add(jLabel52, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 590, -1, -1));
 
         jLabel53.setFont(new java.awt.Font("Hack Nerd Font", 1, 12)); // NOI18N
         jLabel53.setText("Marca:");
-        getContentPane().add(jLabel53, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 550, -1, -1));
+        getContentPane().add(jLabel53, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 550, -1, -1));
 
         jLabel54.setFont(new java.awt.Font("Hack Nerd Font", 1, 12)); // NOI18N
         jLabel54.setText("Modelo:");
-        getContentPane().add(jLabel54, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 570, -1, -1));
+        getContentPane().add(jLabel54, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 570, -1, -1));
 
         jLabel55.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 12)); // NOI18N
-        jLabel55.setText("S/ 3,699.00");
-        getContentPane().add(jLabel55, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 590, -1, -1));
+        jLabel55.setText("S/ 76");
+        getContentPane().add(jLabel55, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 590, -1, -1));
 
         jLabel56.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 12)); // NOI18N
-        jLabel56.setText("ASUS");
-        getContentPane().add(jLabel56, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 550, -1, -1));
+        jLabel56.setText("ADIDAS");
+        getContentPane().add(jLabel56, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 550, -1, -1));
 
         jLabel57.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 12)); // NOI18N
-        jLabel57.setText("FX517ZC ");
-        getContentPane().add(jLabel57, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 570, -1, -1));
+        jLabel57.setText("Mexico 22 Home Jersey  ");
+        getContentPane().add(jLabel57, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 570, -1, -1));
 
-        jLabel60.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/2.png"))); // NOI18N
+        jLabel60.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recurso/2.png"))); // NOI18N
+        jLabel60.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         getContentPane().add(jLabel60, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 80, 190, 180));
 
-        jLabel59.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/3.png"))); // NOI18N
-        getContentPane().add(jLabel59, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 80, -1, 180));
+        jLabel59.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recurso/10.png"))); // NOI18N
+        jLabel59.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        getContentPane().add(jLabel59, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 340, -1, 180));
 
-        jLabel61.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/1.png"))); // NOI18N
+        jLabel61.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recurso/1.png"))); // NOI18N
+        jLabel61.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         getContentPane().add(jLabel61, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 80, 180, 180));
-
-        jLabel62.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/5.png"))); // NOI18N
-        getContentPane().add(jLabel62, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 360, 200, 180));
-
-        jLabel63.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/6.png"))); // NOI18N
-        getContentPane().add(jLabel63, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 360, 190, 180));
-
-        jLabel64.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/7.png"))); // NOI18N
-        getContentPane().add(jLabel64, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 360, -1, 180));
-
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/8.png"))); // NOI18N
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 360, 200, 180));
-
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/6.png"))); // NOI18N
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 80, 200, 180));
 
         jLabel65.setFont(new java.awt.Font("Hack Nerd Font Mono", 1, 12)); // NOI18N
         jLabel65.setText("Precio:");
-        getContentPane().add(jLabel65, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 310, -1, -1));
+        getContentPane().add(jLabel65, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 310, -1, -1));
 
         jLabel66.setFont(new java.awt.Font("Hack Nerd Font Mono", 1, 12)); // NOI18N
         jLabel66.setText("Marca:");
-        getContentPane().add(jLabel66, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 270, -1, -1));
+        getContentPane().add(jLabel66, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 270, -1, -1));
 
         jLabel67.setFont(new java.awt.Font("Hack Nerd Font Mono", 1, 12)); // NOI18N
         jLabel67.setText("Modelo:");
-        getContentPane().add(jLabel67, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 290, -1, -1));
+        getContentPane().add(jLabel67, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 290, -1, -1));
 
         jLabel68.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 12)); // NOI18N
-        jLabel68.setText("S/ 2,099.00");
-        getContentPane().add(jLabel68, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 310, -1, -1));
+        jLabel68.setText("S/ 56");
+        getContentPane().add(jLabel68, new org.netbeans.lib.awtextra.AbsoluteConstraints(1020, 310, -1, -1));
 
         jLabel69.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 12)); // NOI18N
-        jLabel69.setText("ASUS");
-        getContentPane().add(jLabel69, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 270, -1, -1));
+        jLabel69.setText("ADIDAS");
+        getContentPane().add(jLabel69, new org.netbeans.lib.awtextra.AbsoluteConstraints(1020, 270, -1, -1));
 
         jLabel70.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 12)); // NOI18N
-        jLabel70.setText("dy2059la");
-        getContentPane().add(jLabel70, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 290, -1, -1));
+        jLabel70.setText("Mexico Away Fan Shirt  ");
+        getContentPane().add(jLabel70, new org.netbeans.lib.awtextra.AbsoluteConstraints(1020, 290, -1, -1));
 
         jLabel71.setFont(new java.awt.Font("Hack Nerd Font", 1, 12)); // NOI18N
         jLabel71.setText("Precio:");
-        getContentPane().add(jLabel71, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 590, -1, -1));
+        getContentPane().add(jLabel71, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 590, -1, -1));
 
         jLabel72.setFont(new java.awt.Font("Hack Nerd Font", 1, 12)); // NOI18N
         jLabel72.setText("Marca:");
-        getContentPane().add(jLabel72, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 550, -1, -1));
+        getContentPane().add(jLabel72, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 550, -1, -1));
 
         jLabel73.setFont(new java.awt.Font("Hack Nerd Font", 1, 12)); // NOI18N
         jLabel73.setText("Modelo:");
-        getContentPane().add(jLabel73, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 570, -1, -1));
+        getContentPane().add(jLabel73, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 570, -1, -1));
 
         jLabel74.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 12)); // NOI18N
-        jLabel74.setText("S/ 3,699.00");
-        getContentPane().add(jLabel74, new org.netbeans.lib.awtextra.AbsoluteConstraints(1000, 590, -1, -1));
+        jLabel74.setText("S/ 56");
+        getContentPane().add(jLabel74, new org.netbeans.lib.awtextra.AbsoluteConstraints(1020, 590, -1, -1));
 
         jLabel75.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 12)); // NOI18N
-        jLabel75.setText("ASUS");
-        getContentPane().add(jLabel75, new org.netbeans.lib.awtextra.AbsoluteConstraints(1000, 550, -1, -1));
+        jLabel75.setText("ADIDAS");
+        getContentPane().add(jLabel75, new org.netbeans.lib.awtextra.AbsoluteConstraints(1020, 550, -1, -1));
 
         jLabel76.setFont(new java.awt.Font("Hack Nerd Font Mono", 0, 12)); // NOI18N
-        jLabel76.setText("FX517ZC ");
-        getContentPane().add(jLabel76, new org.netbeans.lib.awtextra.AbsoluteConstraints(1000, 570, -1, -1));
+        jLabel76.setText("HEAVYWEIGHT SHMOOFOIL");
+        getContentPane().add(jLabel76, new org.netbeans.lib.awtextra.AbsoluteConstraints(1020, 570, -1, -1));
 
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/3.png"))); // NOI18N
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 360, 200, 180));
+        jLabel77.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recurso/3.png"))); // NOI18N
+        jLabel77.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        getContentPane().add(jLabel77, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 80, -1, 180));
+
+        jLabel78.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recurso/4.png"))); // NOI18N
+        jLabel78.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        getContentPane().add(jLabel78, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 80, -1, 180));
+
+        jLabel79.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recurso/5.png"))); // NOI18N
+        jLabel79.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        getContentPane().add(jLabel79, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 80, -1, 180));
+
+        jLabel80.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recurso/6.png"))); // NOI18N
+        jLabel80.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        getContentPane().add(jLabel80, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 340, -1, 180));
+
+        jLabel81.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recurso/7.png"))); // NOI18N
+        jLabel81.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        getContentPane().add(jLabel81, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 340, -1, 180));
+
+        jLabel82.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recurso/8.png"))); // NOI18N
+        jLabel82.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        getContentPane().add(jLabel82, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 340, -1, 180));
+
+        jLabel83.setIcon(new javax.swing.ImageIcon(getClass().getResource("/recurso/9.png"))); // NOI18N
+        jLabel83.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        getContentPane().add(jLabel83, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 340, -1, 180));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -397,7 +413,6 @@ public class Catalogo extends javax.swing.JInternalFrame {
     private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel22;
@@ -408,7 +423,6 @@ public class Catalogo extends javax.swing.JInternalFrame {
     private javax.swing.JLabel jLabel27;
     private javax.swing.JLabel jLabel28;
     private javax.swing.JLabel jLabel29;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel30;
     private javax.swing.JLabel jLabel31;
     private javax.swing.JLabel jLabel32;
@@ -419,7 +433,6 @@ public class Catalogo extends javax.swing.JInternalFrame {
     private javax.swing.JLabel jLabel37;
     private javax.swing.JLabel jLabel38;
     private javax.swing.JLabel jLabel39;
-    private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel40;
     private javax.swing.JLabel jLabel41;
     private javax.swing.JLabel jLabel42;
@@ -430,7 +443,6 @@ public class Catalogo extends javax.swing.JInternalFrame {
     private javax.swing.JLabel jLabel47;
     private javax.swing.JLabel jLabel48;
     private javax.swing.JLabel jLabel49;
-    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel50;
     private javax.swing.JLabel jLabel51;
     private javax.swing.JLabel jLabel52;
@@ -442,9 +454,6 @@ public class Catalogo extends javax.swing.JInternalFrame {
     private javax.swing.JLabel jLabel59;
     private javax.swing.JLabel jLabel60;
     private javax.swing.JLabel jLabel61;
-    private javax.swing.JLabel jLabel62;
-    private javax.swing.JLabel jLabel63;
-    private javax.swing.JLabel jLabel64;
     private javax.swing.JLabel jLabel65;
     private javax.swing.JLabel jLabel66;
     private javax.swing.JLabel jLabel67;
@@ -457,6 +466,13 @@ public class Catalogo extends javax.swing.JInternalFrame {
     private javax.swing.JLabel jLabel74;
     private javax.swing.JLabel jLabel75;
     private javax.swing.JLabel jLabel76;
+    private javax.swing.JLabel jLabel77;
+    private javax.swing.JLabel jLabel78;
+    private javax.swing.JLabel jLabel79;
+    private javax.swing.JLabel jLabel80;
+    private javax.swing.JLabel jLabel81;
+    private javax.swing.JLabel jLabel82;
+    private javax.swing.JLabel jLabel83;
     private javax.swing.JLabel jLabel9;
     // End of variables declaration//GEN-END:variables
 }

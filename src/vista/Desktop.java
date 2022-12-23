@@ -1,6 +1,5 @@
 package vista;
 
-
 import java.awt.Graphics;
 import java.awt.Image;
 import javax.swing.ImageIcon;
@@ -28,6 +27,7 @@ public class Desktop extends javax.swing.JFrame {
         jMenuItem1 = new javax.swing.JMenuItem();
         btnListaClientes = new javax.swing.JMenuItem();
         btnCatalogo = new javax.swing.JMenuItem();
+        jSeparator1 = new javax.swing.JPopupMenu.Separator();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setLocationByPlatform(true);
@@ -46,7 +46,7 @@ public class Desktop extends javax.swing.JFrame {
         btnListaVentas.setText("Opciones");
 
         btnVentaLaptops.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_1, java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        btnVentaLaptops.setText("Venta de laptops (form)");
+        btnVentaLaptops.setText("Venta de productos (form)");
         btnVentaLaptops.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnVentaLaptopsActionPerformed(evt);
@@ -80,6 +80,7 @@ public class Desktop extends javax.swing.JFrame {
             }
         });
         btnListaVentas.add(btnCatalogo);
+        btnListaVentas.add(jSeparator1);
 
         jMenuBar1.add(btnListaVentas);
 
@@ -115,7 +116,7 @@ public class Desktop extends javax.swing.JFrame {
 
     private void btnVentaLaptopsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVentaLaptopsActionPerformed
         // TODO add your handling code here:
-        VentaLaptop windowVentaLaptop= new VentaLaptop();
+        VentaProducto windowVentaLaptop= new VentaProducto();
         desk.add(windowVentaLaptop);
         windowVentaLaptop.show();
     }//GEN-LAST:event_btnVentaLaptopsActionPerformed
@@ -170,5 +171,6 @@ public class Desktop extends javax.swing.JFrame {
     private javax.swing.JDesktopPane desk;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem1;
+    private javax.swing.JPopupMenu.Separator jSeparator1;
     // End of variables declaration//GEN-END:variables
 }
